@@ -19,11 +19,13 @@ This project uses machine learning to analyze hotel booking data and predict out
 
 ## Data Source
 
-The dataset contains several features including:
-- Hotel type (`Resort Hotel`, `City Hotel`)
-- Meal plan
-- Market segment (e.g., `Direct`, `Corporate`, `Online TA`)
-- Booking details like room type, deposit type, customer type, and reservation dates.
+The dataset `hotel_bookings.csv` contains information about hotel bookings from different types of hotels. The columns include:
+- **Hotel**: Type of hotel (e.g., `Resort Hotel`, `City Hotel`)
+- **Meal**: Meal plan associated with the booking
+- **Market Segment**: Segment of the market (e.g., `Direct`, `Corporate`, `Online TA`)
+- **Booking Details**: Features like room type, deposit type, customer type, and reservation dates
+
+The dataset is loaded in the Jupyter notebook for preprocessing and feature engineering.
 
 ## Models Used
 
@@ -40,6 +42,7 @@ The following machine learning classifiers were tested:
 ```bash
 .
 ├── HotelBookings_Notebook.ipynb   # Main notebook for data analysis and model training
+├── hotel_bookings.csv             # Dataset used for hotel booking analysis
 ├── README.md                      # Documentation for the project
 ```
 
